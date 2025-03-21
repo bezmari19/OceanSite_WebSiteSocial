@@ -4,23 +4,28 @@ body {
     background-color: #000000;
 }
 
-p {
+.primeirotextoIndex {
     color: #ffffff;
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 1px 1px #000000;
+    text-rendering: optimizeLegibility;
+    font-size:smaller;
 }
 
 .sectionsBar {
-    background-position: center;
+    background-color: aqua;
     background-size: contain;
-    padding: 5px;
-    padding-bottom: 1px;
-    padding-top: 1px;
+    padding: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
     margin: auto;
 }
 
 #sectionsPages {
     color: #ffffff;
     border-style: none;
-    text-align: center;
+    text-align:left;
     text-decoration: solid;
     text-rendering: optimizeLegibility;
     text-shadow: 1px 1px black;
