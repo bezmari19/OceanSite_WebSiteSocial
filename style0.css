@@ -4,16 +4,7 @@ body {
     background-color: black;
 }
 
-h1 {
-color: white;
-}
-
-p  {
-color: white;
-}
-
 .sectionsBar {
-    background-color: #4ecffeb3;
     background-position: center;
     background-size: contain;
     padding: 5px;
