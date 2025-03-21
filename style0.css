@@ -34,9 +34,9 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
-    padding: 50px;
+    padding:5px;
     padding-top: 150px;
-    padding-bottom: 190px;
+    padding-bottom: 250px;
     display: flex;
     flex: content;
     flex-wrap: wrap;
