@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body {
+    background-color: black;
+}
+
+h1 {
+color: white;
+}
+
+p  {
+color: white;
+}
+
+.sectionsBar {
+    background-color: #4ecffeb3;
+    background-position: center;
+    background-size: contain;
+    padding: 5px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    margin: auto;
+}
+
+#sectionsPages {
+    color: #ffffff;
+    border-style: none;
+    text-align: center;
+    text-decoration: solid;
+    text-rendering: optimizeLegibility;
+    text-shadow: 1px 1px black;
+    font-size: large;
+    font-weight: bold;
+    font-style: normal;
+}
