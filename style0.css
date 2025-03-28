@@ -9,21 +9,16 @@ body {
 .sectionsNavBar {
     background-size: contain;
     padding: 20px;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
     margin: auto;
-}
-
-#sectionsNavPages {
-    color: #ffffff;
     border-style: none;
-    text-align:left;
-    text-decoration: solid;
-    text-rendering: optimizeLegibility;
-    text-shadow: 1px 1px black;
-    font-size: large;
-    font-weight: bold;
-    font-style: normal;
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    font-style: oblique;
+    text-transform: capitalize;
+    text-decoration: none;
 }
 
 .headerDiv {
