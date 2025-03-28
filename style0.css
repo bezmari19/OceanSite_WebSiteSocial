@@ -6,25 +6,15 @@ body {
     background-repeat: no-repeat;
 }
 
-.primeirotextoIndex {
-    color: #ffffff;
-    text-align: center;
-    text-transform: capitalize;
-    text-shadow: 1px 1px #000000;
-    text-rendering: optimizeLegibility;
-    font-size:smaller;
-}
-
-.sectionsBar {
-    background-color: aqua;
+.sectionsNavBar {
     background-size: contain;
-    padding: 10px;
-    padding-bottom: 5px;
-    padding-top: 5px;
+    padding: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
     margin: auto;
 }
 
-#sectionsPages {
+#sectionsNavPages {
     color: #ffffff;
     border-style: none;
     text-align:left;
