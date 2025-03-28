@@ -1,7 +1,9 @@
 @charset "UTF-8";
 
 body {
-    background-color: #000000;
+    background-image: url(https://images5.alphacoders.com/570/570658.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .primeirotextoIndex {
@@ -35,7 +37,7 @@ body {
 }
 
 .headerDiv {
-    background-image: url(https://images5.alphacoders.com/570/570658.jpg);
+    background-image: url();
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
