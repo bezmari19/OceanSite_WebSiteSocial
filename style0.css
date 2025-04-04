@@ -8,21 +8,24 @@ body {
 
 .sectionsNavBar {
    background-color: #030303;
-   background-position: center;
-   background-size: cover;
-   padding: 30px;
-   text-align: end;
+   overflow: hidden;
 }
 
-.sectionsLetter {
-    color: #ffffff;
+.sectionsNavBar a {
+    float: right;
     flex: auto;
     display: flex;
-    padding: 10px 12px;
-    float: right;
-    text-align: end;
-    font-size: larger;
+    color: #ffffff;
+    text-align: center;
+    padding: 16px 18px;
+    text-decoration: none;
+    text-shadow: 1px 1px black;
+    font-family: Garamond, serif;
     font-weight: bolder;
+    font-size: 15px;
+}
 
-
+.sectionsNavBar a:hover {
+    color: #008cff;
+    text-shadow: none;
 }
