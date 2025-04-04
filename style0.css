@@ -9,8 +9,20 @@ body {
 .sectionsNavBar {
    background-color: #030303;
    background-position: center;
-   background-size: contain;
-   background-repeat: no-repeat;
-   text-align: center;
-   color: #ffff;
+   background-size: cover;
+   padding: 30px;
+   text-align: end;
+}
+
+.sectionsLetter {
+    color: #ffffff;
+    flex: auto;
+    display: flex;
+    padding: 10px 12px;
+    float: right;
+    text-align: end;
+    font-size: larger;
+    font-weight: bolder;
+
+
 }
