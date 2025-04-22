@@ -40,3 +40,10 @@ body {
     padding-right: 30px;
     padding-right: 30px;
 }
+
+.headerDiv h1 {
+    text-align: center;
+    color: #ffffff;
+    background-color: #01b6c0;
+    padding: 10px 10px;
+}
