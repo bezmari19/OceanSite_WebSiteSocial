@@ -1,9 +1,7 @@
 @charset "UTF-8";
 
 body {
-    background-image: url(https://images5.alphacoders.com/570/570658.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: #01b6c053;
 }
 
 .sectionsNavBar {
@@ -12,7 +10,7 @@ body {
 }
 
 .sectionsNavBar a {
-    float: right;
+    float: left;
     flex: auto;
     display: flex;
     color: #ffffff;
@@ -22,10 +20,23 @@ body {
     text-shadow: 1px 1px black;
     font-family: Garamond, serif;
     font-weight: bolder;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .sectionsNavBar a:hover {
-    color: #008cff;
+    background-color: #01b6c053;
+    color: #01b6c0;
     text-shadow: none;
+}
+
+.headerDiv {
+    background-image:url(https://palestrasdesucesso.com.br/wp-content/uploads/2024/04/profissionais-felizes-geram-melhores-resultados-marcia-dolores-palestras-de-sucesso-1400x800.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-clip: padding-box;
+    padding-top: 190px;
+    padding-bottom: 190px;
+    padding-right: 30px;
+    padding-right: 30px;
 }
