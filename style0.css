@@ -36,8 +36,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-clip: padding-box;
-    padding-top: 190px;
-    padding-bottom: 190px;
+    padding-top: 200px;
+    padding-bottom: 200px;
     padding-right: 30px;
     padding-left: 30px;
 }
@@ -62,6 +62,16 @@ body {
     font-weight: bolder;
     font-size: 50px;
     font-style:normal;
+}
+
+.headerDiv p {
+    text-align: center;
+    text-transform: lowercase;
+    text-rendering: optimizeLegibility;
+    font-family: Garamond, serif;
+    font-weight:bold;
+    font-size: 25px;
+    font-style:italic;
 }
 
 .sectionsNavBarBottom {
