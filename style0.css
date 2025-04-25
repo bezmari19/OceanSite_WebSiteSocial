@@ -68,8 +68,7 @@ body {
 .headerDivP {
     background-color: #00a2bedc;
     background-position: left;
-    background-size: 10%;
-    background-repeat: no-repeat; 
+    background-size: cover;
     background-clip: content-box;
     padding-top: 5px;
     padding-bottom: 5px;
