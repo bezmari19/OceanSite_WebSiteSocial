@@ -43,11 +43,12 @@ body {
 }
 
 .headerDivh1 {
-    background-color: #01b6c0;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat; 
     background-clip: padding-box;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .headerDivh1 h1 {
@@ -57,22 +58,31 @@ body {
     text-align: center;
     text-rendering:optimizeLegibility;
     flex: auto;
-    padding: 16px 18px;
+    padding: 70px 30px;
     font-family: Garamond, serif;
     font-weight: bolder;
     font-size: 50px;
     font-style:normal;
 }
 
-.headerDiv p {
-    text-align: center;
-    text-transform: lowercase;
-    text-rendering: optimizeLegibility;
-    font-family: Garamond, serif;
-    font-weight:bold;
-    font-size: 25px;
-    font-style:italic;
+.headerDivP {
+    background-color: #00a2bedc;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
+
+.headerDivP p {
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px #030303;
+    font-family: Garamond, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 
 .sectionsNavBarBottom {
    background-color: #01b6c053;
@@ -83,5 +93,6 @@ body {
     color: #ffffff;
     text-align: center;
     text-transform: lowercase;
-    font-size: ;
+    font-size:medium;
+    font-weight: lighter;
 }
