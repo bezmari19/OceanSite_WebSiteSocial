@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-    background-color: #01b6c053;
+    background-color: #030303;
 }
 
 .sectionsNavBar {
@@ -18,6 +18,7 @@ body {
     padding: 16px 18px;
     text-decoration: none;
     text-shadow: 1px 1px black;
+    text-rendering:optimizeLegibility;
     font-family: Garamond, serif;
     font-weight: bolder;
     font-size: 20px;
@@ -38,13 +39,39 @@ body {
     padding-top: 190px;
     padding-bottom: 190px;
     padding-right: 30px;
-    padding-right: 30px;
+    padding-left: 30px;
 }
 
-.headerDiv h1 {
-    text-align: center;
-    color: #ffffff;
+.headerDivh1 {
     background-color: #01b6c0;
-    background-position: bottom;
-    padding: 10px 10px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-clip: padding-box;
+}
+
+.headerDivh1 h1 {
+    color: #ffffff;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 3px#030303;
+    text-align: center;
+    text-rendering:optimizeLegibility;
+    flex: auto;
+    padding: 16px 18px;
+    font-family: Garamond, serif;
+    font-weight: bolder;
+    font-size: 50px;
+    font-style:normal;
+}
+
+.sectionsNavBarBottom {
+   background-color: #01b6c053;
+   overflow: hidden;
+}
+
+.sectionsNavBarBottom h2 {
+    color: #ffffff;
+    text-align: center;
+    text-transform: lowercase;
+    font-size: ;
 }
