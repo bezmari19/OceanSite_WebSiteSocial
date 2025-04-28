@@ -107,3 +107,27 @@ body {
     text-shadow: 1px 1px 3px #000000;
     font-weight: lighter;
 }
+
+.articleDiv {
+    background-color: #ffffff;
+    padding: 100px 60px;
+}
+
+.articleDivText {
+    background-color: fffffff;
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: #ffffff 1px 1px 3px;
+    text-rendering: optimizeLegibility;
+    text-decoration: underline #034c50e3;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 25px;
+    text-decoration-style: solid;
+}
+
+.articleDivTitle1 {
+    color: #034c50e3;
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: Garamond, serif;
+}
