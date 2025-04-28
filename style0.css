@@ -1,12 +1,13 @@
 @charset "UTF-8";
 
 body {
-    background-color: #030303;
+    background-color: #000000;
 }
 
 .sectionsNavBar {
    background-color: #030303;
    overflow: hidden;
+   border: none;
 }
 
 .sectionsNavBar a {
@@ -36,10 +37,11 @@ body {
     background-position: left;
     background-repeat: no-repeat;
     background-clip: padding-box;
-    padding-top: 160px;
-    padding-bottom: 160px;
+    padding-top: 190px;
+    padding-bottom: 190px;
     padding-right: 30px;
     padding-left: 30px;
+    border: none;
 }
 
 .headerDivText {
@@ -91,7 +93,7 @@ body {
 }
 
 .sectionsNavBarBottom {
-   background-color: #01b6c053;
+   background-color: #034c50e3;
    overflow: hidden;
    padding-top: 20px;
    padding-bottom: 20px;
