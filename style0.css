@@ -132,6 +132,66 @@ body {
     font-family: Garamond, serif;
 }
 
-.DivImagearticle1 {
-    
+.SectionsTipo1 {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: left;
+    background-color: #01b6c0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    padding-right: 50px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 50px;
+    box-shadow: 1px 3px 5px #000000;
+
+}
+
+.SectionsTipo1 img {
+    width: 400px;
+    height: 500px;
+    object-fit: contain;
+    margin-right: 20px;
+}
+
+.TextoSection1 {
+    color: #ffffff;
+    text-align: left;
+    max-width: 400px; 
+    padding: 40px;
+    background-color: #000000;
+}
+
+.SectionsTipo2 {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: left;
+    background-color: #01b6c0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    padding-right: 50px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 50px;
+    box-shadow: 1px 3px 5px #000000;
+
+}
+
+.SectionsTipo2 img {
+    width: 400px;
+    height: 500px;
+    object-fit: contain;
+    margin-right: 20px;
+}
+
+.TextoSection2 {
+    color: #ffffff;
+    text-align: left;
+    max-width: 400px; 
+    padding: 40px;
+    background-color: #000000;
 }
